@@ -24,10 +24,6 @@ body {
     
   }
   
-  label{
-    font-size: 20px;
-  }
-  
   main {
        margin: auto;
        width: 50%;
@@ -51,23 +47,7 @@ body {
     color: #fff;
     
   }
-  
-  input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    outline: 0;
-  }
-  
-  /* tira as flechas do input: valor */
-  
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button
-     {
-      -webkit-appearance: none;
-      margin: 0;
-  }
-  
+    
   /* Botoes */
   
   button  {
@@ -96,7 +76,7 @@ body {
   }
   
   table th {
-    background-color: #adadad;
+    background-color: #fff;
   
   }
   
