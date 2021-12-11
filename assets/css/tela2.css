@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,Arial,sans-serif;
+    
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    
+}
+
+.balance{
+    color: #ffc800;
+    font-size: 35px;
+    
+}
+
+.form
+{
+    position: relative;
+    background: #00A5F0;
+    width: 350px;
+    padding: 40px 40px 60px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+.form h2
+{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+
+
+.form .input
+{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.form .input .inputBox
+{
+    margin-top: 10px;
+}
+
+.form .input .inputBox label
+{
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.form .input .inputBox input
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    color: #678983;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao  {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: #ffc800;
+    color: #111;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px; 
+   }
+  
+  .botao:hover {
+    background-color: #e6b400;
+    cursor: pointer;
+  }
+
+/* .form .input .inputBox input[type="submit"]
+{
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    background: #FFC800;
+    color: black;
+}
+
+.form .input .inputBox input[type="submit"]:hover
+{
+    background:#E6B400;
+} */

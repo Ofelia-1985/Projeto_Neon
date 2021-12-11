@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle Financeiro</title>
-    <link rel="stylesheet" type="text/css" href="tabela.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tabela.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
@@ -18,7 +18,7 @@
 
     <main>
     <div class="card">
-        <h1>Saldo atual</h1>
+        <h1 class="saldo">Saldo atual</h1>
         <h1 id="balance" class="balance">R$ 0.00</h1>
 
      <div class="lineInput">
@@ -35,9 +35,8 @@
         <label>Descrição</label>
         <input type="text" id="produto">
     </div>
-
         <button class="botao" onclick="produto.salvar()" id="btn1">Salvar</button>
-        <button class="botao" onclick="produto.cancelar()">Cancelar</button>
+       
     </div>
 
     <br>
@@ -45,23 +44,16 @@
     <div class="content">
         <table border="1">
             <thead>
-                <th class="center">ID</th>
+                <!-- <th class="center">ID</th> -->
                 <th>Descrição</th>
                 <th>Valor</th>
                 <th>Data</th>
-                <th class="center">Ações</th>
+               <!--  <th class="center">Ações</th> -->
             </thead>
-
-            <tbody id="tbody">
-            </tbody>
-        
     </div>
 </main>
 
-<!-- imagenes:
-<i class="fas fa-edit"></i>  //edit
-<i class="fas fa-trash-alt"></i> //delete
- -->
+ 
 
     <script src="tabela.js"></script>
   

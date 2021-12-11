@@ -1,0 +1,115 @@
+body {
+    font-family: Inter,Arial,sans-serif;
+    background: #fff;
+    
+  }
+  
+    .saldo {
+      color: #fff;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      size:30px;
+        
+  }
+  
+  .balance{
+    color: #ffc800;
+    font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      size: 30px;
+    
+  }
+  
+  label{
+    font-size: 20px;
+  }
+  
+  main {
+       margin: auto;
+       width: 50%;
+       padding: 10px;
+  }
+  
+  .card {
+    position: relative;
+    padding: 0px 20px 20px 20px;
+    margin: 50px auto;
+    width: 50%;
+    background-color: #00A0A0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+     
+    }
+  
+  .lineInput {
+    display: grid;
+    margin-bottom: 10px;
+    color: #fff;
+    
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: 0;
+  }
+  
+  /* tira as flechas do input: valor */
+  
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button
+     {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  /* Botoes */
+  
+  button  {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: #ffc800;
+    color: #111;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px; 
+   }
+  
+  button:hover {
+    background-color: #e6b400;
+    cursor: pointer;
+  }
+  
+  /* tabela */
+  
+  table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  table th {
+    background-color: #adadad;
+  
+  }
+  
+  table th,
+  td {
+    padding: 1px 5px;
+    text-align: left;
+  }
+  
+  td {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .center {
+    text-align: center;
+  }
