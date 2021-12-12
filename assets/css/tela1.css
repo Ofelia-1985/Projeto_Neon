@@ -95,3 +95,66 @@ button:hover
     background:#E6B400;
 }
 
+/*  */
+
+a{
+    color:#fff;
+    margin: 15px;
+    background-color: #FFFFFF;
+    
+  }
+footer {
+    position: absolute;
+    margin-top: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+  }
+  
+  i{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .fb{
+      background-color: #0073CD;
+      border-radius: 50px;
+  }
+  
+  .inst{
+    background-color: #00a0a0;
+    border-radius: 50px;
+}
+
+.linkedin{
+    background-color: #0073CD;
+    border-radius: 50px;
+}
+.twitter{
+    background-color: #00A5F0;
+    border-radius: 50px;
+}
+.yt{
+    background-color: #38A3A5;
+    border-radius: 50px;
+}
+#copy {
+    color: chocolate;
+    position: absolute;
+    margin-top: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+  }
+    
+
+
