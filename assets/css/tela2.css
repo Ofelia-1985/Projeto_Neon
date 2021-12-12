@@ -102,16 +102,60 @@ body
     cursor: pointer;
   }
 
-/* .form .input .inputBox input[type="submit"]
-{
-    cursor: pointer;
-    margin-top: 20px;
-    letter-spacing: 1px;
-    background: #FFC800;
-    color: black;
+  a{
+    color:#fff;
+    margin: 15px;
+    background-color: #FFFFFF;
+    
+  }
+footer {
+    position: absolute;
+    margin-top: 55%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  i{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .fb{
+      background-color: #0073CD;
+      border-radius: 50px;
+  }
+  
+  .inst{
+    background-color: #00a0a0;
+    border-radius: 50px;
 }
 
-.form .input .inputBox input[type="submit"]:hover
-{
-    background:#E6B400;
-} */
+.linkedin{
+    background-color: #0073CD;
+    border-radius: 50px;
+}
+.twitter{
+    background-color: #00A5F0;
+    border-radius: 50px;
+}
+.yt{
+    background-color: #38A3A5;
+    border-radius: 50px;
+}
+.copy {
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    margin-top: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

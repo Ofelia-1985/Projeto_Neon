@@ -34,9 +34,8 @@ body
     letter-spacing:5px;
     margin-bottom: 30px;
     font-size: 35px
-  
-   
 }
+
 .form h2
 {
     color: #0073CD;
@@ -54,7 +53,7 @@ body
     
 }
 
-p {
+.text {
     color: #fff;
     font-size: 20px;
     line-height: 38px;
@@ -105,12 +104,11 @@ a{
   }
 footer {
     position: absolute;
-    margin-top: 50%;
+    margin-top: 55%;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: center;
   }
   
   i{
@@ -145,15 +143,15 @@ footer {
     background-color: #38A3A5;
     border-radius: 50px;
 }
-#copy {
-    color: chocolate;
+.copy {
+    font-size: 15px;
+    color: gray;
     position: absolute;
     margin-top: 50%;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: center;
   }
     
 
