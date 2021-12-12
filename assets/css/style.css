@@ -32,7 +32,7 @@ body
 {
     position: relative;
     background: #00A5F0;
-    width: 350px;
+    width: 400px;
     padding: 40px 40px 60px;
     border-radius: 10px;
     text-align: center;
@@ -87,6 +87,9 @@ body
     letter-spacing: 1px;
     background: #FFC800;
     color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 .form .input .inputBox input[type="submit"]:hover
@@ -100,6 +103,7 @@ body
     color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .forgot a

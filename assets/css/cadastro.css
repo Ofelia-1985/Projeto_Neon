@@ -20,7 +20,7 @@ body
 {
     position: relative;
     background: #00A5F0;
-    width: 350px;
+    width: 400px;
     padding: 40px 40px 60px;
     border-radius: 10px;
     text-align: center;
@@ -32,7 +32,7 @@ body
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .form .input
@@ -75,6 +75,7 @@ body
     letter-spacing: 1px;
     background: #FFC800;
     color: black;
+    font-weight: bold;
 }
 
 .form .input .inputBox input[type="submit"]:hover

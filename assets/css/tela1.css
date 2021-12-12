@@ -21,33 +21,37 @@ body
 {
     position: relative;
     background: #00A5F0;
-    width: 350px;
+    width: 400px;
     padding: 40px 40px 60px;
     border-radius: 20px;
     text-align: center;
 }
 
-h1{
-    color:#000;
-    font-size: 25px;
-    line-height: 50px;
-    margin-bottom: 15px;
+.titulo{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    margin-bottom: 30px;
+    font-size: 35px
+  
+   
 }
 .form h2
 {
     color: #0073CD;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-top: 5px;
 
 }
 
 .cx{
-    border: solid 2px #fff;
     background: #fff;
     align-content: center;
     border-radius: 10px;
     margin-bottom: 20px;
+    
 }
 
 p {
@@ -57,9 +61,9 @@ p {
 }
 
 .balance{
-    font-size: 40px;
+    font-size: 35px;
     color:#ffc800;
-    
+        
 }
 
 
@@ -83,6 +87,7 @@ button
     letter-spacing: 1px;
     background: #FFC800;
     color: black;
+    font-weight: bold;
 }
 
 button:hover
