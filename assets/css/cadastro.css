@@ -16,18 +16,6 @@ body
     background: #fff;
     
 }
-
-  
-  .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -70px;
-    left: calc(50% - 50px);
-    border:solid 2px #fff;
-  }
-
 .form
 {
     position: relative;
@@ -92,18 +80,4 @@ body
 .form .input .inputBox input[type="submit"]:hover
 {
     background:#E6B400;
-}
-
-.forgot
-{
-    margin-top: 10px;
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.forgot a
-{
-    color: #003B87;
-    font-weight: bold;
 }
