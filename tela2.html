@@ -40,9 +40,14 @@
                 </div>
 
                     <div class="check">
-                         <input type="radio" name="" value="Entrada"> Entrada
-                        <input type="radio" name="" value="Saida"> Saída<br>
+                         <input type="radio" id="Entrada" name="drone" value="entrada" checked>
+                         <label for="entrada">Entrada</label>
                     </div>
+                    <div class="check">
+                        <input type="radio" id="saida" name="drone" value="saida">
+                        <label for="saida">Saída</label>
+                    </div>
+
                 <button class="botao" onclick="produto.salvar()" id="lancar">FAZER LANÇAMENTO</button>
         </div>
 
