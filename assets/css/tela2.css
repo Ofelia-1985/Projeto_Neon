@@ -119,6 +119,7 @@ body
 }
 
 
+
 .form h2
 {
     color: #fff;
@@ -128,7 +129,9 @@ body
     font-size: 20px;
 }
 
-
+.lineInput{
+  padding: 5px;
+}
 
 .form .input
 {
@@ -164,9 +167,11 @@ body
 }
 
 .check{
-    display: flex;
-    justify-content: space-around;
+    display: inline;
+    justify-content: center;
+    align-items: center;
     margin: .4rem;
+    border-left: 50px;
     
 }
 

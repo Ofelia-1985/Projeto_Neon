@@ -116,7 +116,7 @@ nav ul li{
     position: relative;
     background: #00A5F0;
     width: 400px;
-    padding: 40px 40px 60px;
+    padding: 40px 40px 0px;
     border-radius: 10px;
     text-align: center;
     margin-top: 5%;
@@ -135,7 +135,9 @@ nav ul li{
   color:darkblue;
   text-transform: uppercase;
   font-size: 20px;
+  padding: auto;
 }
+
 p {
   color: #fff;
   font-size: 20px;
@@ -162,10 +164,62 @@ tr{
    
 }
 .filtro-data{
-  display: flex;
-  
+  display: inline;
+  color: #fff;
+  font-size: medium;
+  background-color: #ffc800;
 }
 
+.dataLancamento{
+    display: inline;
+    border: 0px;
+    padding: 10px;
+    background-color: #fff;
+    color: #111;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 20px; 
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #0073CD;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
 
 
 /* FOOTER */
