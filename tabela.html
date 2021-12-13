@@ -13,16 +13,28 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 </head>
 <body>
-    <header>
-       
+    <header class="header">
+        <div class="container logo-nav">
+            <img class= logo src="assets/img/neonLogo.png" alt="" width="40">
+             <nav class="naveg">
+            
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <div class="card">
-            <h1 class="saldo">Saldo atual</h1>
-            <h1 id="balance" class="balance">R$ 0.00</h1>
-    
-          <div class="content">
+    <div class="form">
+        <h1 id="balance" class="balance">R$ 0.00</h1>
+        <h1 class="saldo">Saldo atual</h1>
+
+        <p class="p_filtro">Filtrar por Data:</p>
+    <div class="filtro-data">
+        <p>De:</p>
+        <input id="date" type="date" value="2021-01-01">
+        <p>Até</p>
+        <input id="date" type="date" value="2021-12-01">
+    </div>
+    <br>
+        <div class="content">
             <table border="1">
                 <thead>
                     <th>Descrição</th>
@@ -30,9 +42,8 @@
                     <th>Data</th>
                 </thead>
             </table>
-          </div>      
-        </div>
-    </main>
+        </div>      
+    </div>
 
     <footer>
         <a class="fb" href="https://www.facebook.com/timeneon" target="_blank" rel="noopener">
