@@ -38,7 +38,7 @@ body
   .header{
     background: #0073CD;
     color: white;
-    padding: 10px 0;
+    padding: 5px 0;
     justify-content:center;
   
     position:absolute;
@@ -61,8 +61,8 @@ body
   }
   
   .logo{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     letter-spacing: 15px;
     font-size: 50px;
@@ -96,15 +96,32 @@ body
   .naveg ul li a:hover {
     background: #e6b400;
   }
+  .titulo{
+    position: relative;
+    line-height: 0px;
+    font-weight:bold;
+    font-size: 28px;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
   
-      /* container */
+  }
+  
+  .far {
+    position: absolute;
+    color: #fff;
+    top: 8px;
+    right: 12px;   
+  }
+  
+      /* CONTAINER */
   
   .avatar {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     position: absolute;
-    top: -70px;
+    top: -30px;
     left: calc(50% - 50px);
     border:solid 2px #fff;
   }
@@ -113,11 +130,11 @@ body
 {
     position: relative;
     background: #00A5F0;
-    width: 400px;
+    width: 500px;
     padding: 40px 40px 60px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 
