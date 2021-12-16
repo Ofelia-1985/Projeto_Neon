@@ -39,7 +39,7 @@ body
   .header{
     background: #0073CD;
     color: white;
-    padding: 10px 0;
+    padding: 5px 0;
     justify-content:center;
   
     position:absolute;
@@ -62,8 +62,8 @@ body
   }
   
   .logo{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     letter-spacing: 15px;
     font-size: 50px;
@@ -73,84 +73,70 @@ body
     justify-content: center;
     
   }
-  
-  
-  .naveg ul{
-    margin: 0;
-    list-style: none;
-  }
-  
-  nav ul li{
-    display: inline-block;
-  }
-  
-  .naveg ul li a{
-    display: block;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    transition: all 0.4s linear;
-    font-weight: bold;
-    background: #ffc800;
-    color:#000;
-  }
-  
-  .naveg ul li a:hover {
-    background: #e6b400;
-  }
-  
+  .titulo{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    font-size: 28px;
+    
+}
   /* CONTAINER */
 
 .form
 {
     position: relative;
     background: #00A5F0;
-    width: 400px;
+    width: 500px;
     padding: 40px 40px 60px;
     border-radius: 20px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
 }
-
-.titulo{
-    color: #fff;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing:5px;
-    margin-bottom: 30px;
-    font-size: 24px
+.balance{
+  font-size: 35px;
+  color:#ffc800;
+      
 }
+/* saldo conta */
 
 .form h2
 {
-    color: #0073CD;
+    color: darkblue;
     font-size: 15px;
     text-transform: uppercase;
     margin-top: 5px;
+    margin-bottom: 55px;
 
 }
 
-.cx{
-    background: #fff;
-    align-content: center;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
+/* img */
+
+.keys{
+  width: 120px;
+  margin-top:8px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+/* flecha */
+.far {  
+  position: absolute;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  top: 2px;
+  right: 10px;
 }
 
 .text {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 38px;
 }
-
-.balance{
-    font-size: 35px;
-    color:#ffc800;
-        
-}
-
-
-button
+/* botao */
+#lancar
 {
     position: relative;
     width: 100%;
@@ -158,13 +144,8 @@ button
     border: none;
     outline: none;
     padding: 5px 15px;
-    color: #678983;
     font-size: 18px;
-    border-radius: 50px;
-}
-
-button
-{
+    border-radius: 20px;
     cursor: pointer;
     margin-top: 30px;
     letter-spacing: 1px;
@@ -173,12 +154,12 @@ button
     font-weight: bold;
 }
 
-button:hover
+#lancar:hover
 {
     background:#E6B400;
 }
 
-/*  */
+/* FOOTER */
 
 a{
     color:#fff;
