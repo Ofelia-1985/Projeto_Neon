@@ -115,8 +115,7 @@ body
   }
 
   .keys{
-    width: 120px;
-   margin-top: 8px;
+    width: 110px;
   }
   
   /* CONTAINER */
@@ -126,9 +125,9 @@ body
     background: #00A5F0;
     width: 500px;
     padding: 2px 40px 60px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 
