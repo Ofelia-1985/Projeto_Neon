@@ -144,9 +144,6 @@ body
   margin-bottom: 15px;
 }
 
-/* .lineInput{
-  padding: 5px;
-} */
 
 .form .input
 {
@@ -180,15 +177,66 @@ body
     font-size: 18px;
     border-radius: 50px;
 }
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
 
-.check{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    margin: .4rem;
-    border-left: 50px;
-    
+/* CHECK */
+
+.form-group{
+  margin-bottom: 2px;
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
 }
+
+.form-group label {
+  padding-right: 50px;
+  cursor: pointer;
+  color:darkblue;
+  font-weight: bold;
+  margin-left: 10px;
+}
+ 
+.radio {
+  cursor: pointer;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+
+.radio:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 0, 0, 0.726);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 100ms ease-in-out;
+  position: absolute;
+}
+
+#radio1:before{
+  background: #368f1b;
+}
+
+
+.radio:checked:before {
+  opacity: 1;
+ 
+}
+
 
 .botao  {
     border: 0px;

@@ -28,12 +28,12 @@
                 <div class="inputBox">
                     <div class="lineInput">
                         <label>Data</label>
-                        <input type="date" id="data">
+                        <input type="date" id="data" required/>
                     </div>
                     
                     <div class="lineInput">
                         <label>Valor</label>
-                        <input type="number" id="preco" >
+                        <input type="number" id="preco" placeholder="R$ 0,00" required/>
                     </div>
                 
                     <div class="lineInput">
@@ -43,10 +43,16 @@
                     <br>
                 </div>
 
-                <div class="check">
-                    <input type="radio" name="" value="Entrada"> Entrada
-                   <input type="radio" name="" value="Saida"> Saída<br>
-               </div>
+                <div class="wrapper">
+                    <div class="form-group">
+                      <input class="radio" name="theradio" id="radio1" type='radio' checked />
+                      <label for="radio1">ENTRADA</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="radio" name="theradio" id="radio2" type='radio' />
+                      <label for="radio2">SAIDA</label>
+                    </div>
+                </div>
 
                 <button class="botao" onclick="produto.salvar()" id="lancar">FAZER LANÇAMENTO</button>
         </div>
@@ -72,6 +78,6 @@
    
        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="tela2.js"></script>
+        <script src="assets/js/tela2.js"></script>
     </body>
 </html>

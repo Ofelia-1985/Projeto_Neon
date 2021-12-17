@@ -1,3 +1,9 @@
+var primero = document.getElementById("btn1");
+         
+         primero.addEventListener("click", validar);
+
+
+
 function validar (){
 
     
@@ -22,5 +28,11 @@ function validar (){
         alert('Preencha o campo Senha com mínimo 6 caracteres.');
         formulario.senha.focus();
         return false;
+    
+    }else{
+
+        location.href = "tela1.html";
+   
     }
+
 }

@@ -107,7 +107,7 @@ nav ul li{
   align-content: center;
   text-transform: uppercase; 
 }
-.far {
+.fas {
   position: absolute;
   color: #fff;
   width: 60px;
@@ -115,7 +115,39 @@ nav ul li{
   top: 2px;
      
 }
+.btn-api{
 
+  width: 30px;
+  height: 30px;
+  color: #007953;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 30px;
+  margin-top: 173px;
+
+}
+
+.btn-api:hover {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: #007953;
+  border-color: #007953;
+  padding: 8px;
+  border-radius: 30px;
+  margin-top: 173px;
+}
+
+
+.search{
+  color: #fff;
+  width: 0px;
+  height: 60px;
+  top: 2px;
+  margin-top: 165px;
+
+
+}
   /* CONTAINER */
 
   .imgMulher{
@@ -132,7 +164,7 @@ nav ul li{
     width: 550px;
     padding: 40px 40px 0px;
     border-radius: 20px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .balance{
@@ -241,7 +273,7 @@ tr{
 #lancar
 {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: 40px;
     border: none;
     outline: none;
@@ -249,12 +281,13 @@ tr{
     font-size: 18px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 30px;
-    margin-bottom: 30px;
     letter-spacing: 1px;
     background: #FFC800;
     color: black;
     font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 40px 20px 40px 70px;
 }
 
 #lancar:hover

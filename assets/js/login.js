@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.json());
 app.use(cors());
 
-let db - [
+/* let db - [
 	
-]
+] */
 
 app.listen(21262, () => {
 	console.log(`Express started at http://localhost:21262`);
