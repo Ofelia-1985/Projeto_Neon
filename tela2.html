@@ -15,41 +15,47 @@
                 <img class= logo src="assets/img/neonLogo.png" alt="" width="40">
                 <h1 class="titulo">NOVO LANÇAMENTO</h1>
                <nav>
-                <a href="tabela.html"><i class="far fa-arrow-alt-circle-left"></i></a>
+                <a href="tela1.html"><i class="far fa-arrow-alt-circle-left"></i></a>
                </nav>
             </div>
         </header>
             <div class="form">
-                <img class="keys"  src="assets/" alt="" >
-
              <h1 id="balance" class="balance">R$ 0.00</h1>
              <h2>Saldo Conta</h2>
              <div class="input">
                 <div class="inputBox">
+                  <form action=""  id="formulario" method="POST" name="formulario">
                     <div class="lineInput">
                         <label>Data</label>
-                        <input type="date" id="data">
+                        <input  name="data" type="date" id="data" required/>
                     </div>
                     
                     <div class="lineInput">
                         <label>Valor</label>
-                        <input type="number" id="preco" >
+                        <input name="valor" type="number" id="valor" placeholder="R$ 0,00" required/>
                     </div>
                 
                     <div class="lineInput">
                         <label>Descrição</label>
-                        <input type="text" id="produto">
+                        <input name="descricao" type="text" id="descricao">
                     </div>
-                    <br>
+                        <br>
+                   </div>
+                 </form>
+
+                <div class="wrapper">
+                    <div class="form-group">
+                      <input class="radio" name="theradio" id="radio1" type='radio' checked />
+                      <label for="radio1">ENTRADA</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="radio" name="theradio" id="radio2" type='radio' />
+                      <label for="radio2">SAIDA</label>
+                    </div>
                 </div>
 
-                <div class="check">
-                    <input type="radio" name="" value="Entrada"> Entrada
-                   <input type="radio" name="" value="Saida"> Saída<br>
-               </div>
-
-                <button class="botao" onclick="produto.salvar()" id="lancar">FAZER LANÇAMENTO</button>
-        </div>
+                <button  type="button" id="btn1">Entrar</button> 
+           </div>
 
         <footer>
             <a class="fb" href="https://www.facebook.com/timeneon" target="_blank" rel="noopener">
@@ -72,6 +78,6 @@
    
        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="tela2.js"></script>
+        <script src="assets/js/tela2.js"></script>
     </body>
 </html>
