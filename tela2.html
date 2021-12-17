@@ -15,33 +15,33 @@
                 <img class= logo src="assets/img/neonLogo.png" alt="" width="40">
                 <h1 class="titulo">NOVO LANÇAMENTO</h1>
                <nav>
-                <a href="tabela.html"><i class="far fa-arrow-alt-circle-left"></i></a>
+                <a href="tela1.html"><i class="far fa-arrow-alt-circle-left"></i></a>
                </nav>
             </div>
         </header>
             <div class="form">
-                <img class="keys"  src="assets/" alt="" >
-
              <h1 id="balance" class="balance">R$ 0.00</h1>
              <h2>Saldo Conta</h2>
              <div class="input">
                 <div class="inputBox">
+                  <form action=""  id="formulario" method="POST" name="formulario">
                     <div class="lineInput">
                         <label>Data</label>
-                        <input type="date" id="data" required/>
+                        <input  name="data" type="date" id="data" required/>
                     </div>
                     
                     <div class="lineInput">
                         <label>Valor</label>
-                        <input type="number" id="preco" placeholder="R$ 0,00" required/>
+                        <input name="valor" type="number" id="valor" placeholder="R$ 0,00" required/>
                     </div>
                 
                     <div class="lineInput">
                         <label>Descrição</label>
-                        <input type="text" id="produto">
+                        <input name="descricao" type="text" id="descricao">
                     </div>
-                    <br>
-                </div>
+                        <br>
+                   </div>
+                 </form>
 
                 <div class="wrapper">
                     <div class="form-group">
@@ -54,8 +54,8 @@
                     </div>
                 </div>
 
-                <button class="botao" onclick="produto.salvar()" id="lancar">FAZER LANÇAMENTO</button>
-        </div>
+                <button  type="button" id="btn1">Entrar</button> 
+           </div>
 
         <footer>
             <a class="fb" href="https://www.facebook.com/timeneon" target="_blank" rel="noopener">
