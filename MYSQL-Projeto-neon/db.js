@@ -16,7 +16,8 @@ connect();
 
 async function selectLogin() {
     const conn = await connect();
-    return await conn.query('SELECT * FROM login;');
+    const [rows] = conn.query('SELECT * FROM login;')
+    return await rows;
 
 }
 
