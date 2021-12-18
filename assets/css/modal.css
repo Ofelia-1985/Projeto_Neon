@@ -66,6 +66,9 @@ section > img{
   display:flex;
   align-items: center;
   justify-content: center;
+
+  max-height: calc(100vh -200px);
+  overflow-y: auto;
 }
 
 .modal{
@@ -88,9 +91,9 @@ section > img{
 }   */
 
 .close{
-    position: absolute;
-    top: 185px;
-    left: 880px;
+    position: relative;
+    top: 0;
+    right: 0;
     display: inline-block;
     width: 25px;
     height: 25px;
