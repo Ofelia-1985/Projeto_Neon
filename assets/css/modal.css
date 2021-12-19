@@ -66,9 +66,6 @@ section > img{
   display:flex;
   align-items: center;
   justify-content: center;
-
-  max-height: calc(100vh -200px);
-  overflow-y: auto;
 }
 
 .modal{
