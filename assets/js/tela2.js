@@ -10,7 +10,8 @@ function validar (){
     var data= formulario.data.value;
     var valor= formulario.valor.value;
     var descrip= formulario.descricao.value;
-   
+    var check = document.forms["formulario"]["radio"];
+
 
     if (data==""  ){
         alert('Preencha corretamente o campo Data.');
@@ -28,6 +29,10 @@ function validar (){
         alert('Preencha o campo Descricão com máximo 50 caracteres.');
         formulario.descricao.focus();
         return false;
+    }    
+
+    if (check[0].checked==false && check[1].checked ==false){
+        alert('Selecione Entrada ou Saída de Dinheiro')
     
     }else{
 
