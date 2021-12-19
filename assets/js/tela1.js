@@ -4,6 +4,6 @@ var lancamento = document.getElementById("lancar");
 
          function lancar() {
 
-            location.href = "http://127.0.0.1:5502/tela2.html";
+            location.href = "tela2.html";
             
          }
