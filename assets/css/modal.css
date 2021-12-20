@@ -7,6 +7,28 @@
 body{
 	background: #f2f2f2;
 	font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+.scroll{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 40.5%;
+  min-width: 14rem;
+  margin: 0px 0.7px 8px;
+}
+
+.scroll::-webkit-scrollbar{
+  width: 0.6rem;
+
+}
+.scroll::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+  background-color: #0073CD;
+  border-radius: 1rem;
 }
 
 section{
@@ -14,7 +36,7 @@ section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 10px;
 
 }
 
@@ -24,13 +46,6 @@ section h2{
     margin-bottom: 5px;
 }
 
-section p{
-    margin-bottom: 15px;
-}
-
-section > img{
-    height: 60%;
-}
 
 .cta{
     border: 0px;
@@ -69,28 +84,23 @@ section > img{
 }
 
 .modal{
-    width: 40%;
-    height: 50%;
+    width: 50%;
+    height: 60%;
     background-color: beige;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     position: relative;
-    /* transition: transform (0.3s);
-    transform: translate(%); */
     border-radius: 10px;
     overflow: hidden; 
 }
 
-  /* .modal_close{
-    transform: translateY(-200);
-}   */
 
 .close{
     position: relative;
-    top: 0;
-    right: 0;
+    top: -120px;
+    right: 0px;
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -100,4 +110,54 @@ section > img{
     cursor: pointer;
     border-radius:20px ;
 
+}
+
+/* TABELA */
+
+.content{
+  width: 100%;
+  max-width: 450px;
+}
+
+tr{
+  background-color: #fff;
+  
+}
+.content-table{
+  border-collapse: collapse;
+  margin: 2px 0px;
+  font-size: 0.9em;
+  min-width: 500px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #0073CD;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 8px 8px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #0073CD;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #0073CD;
 }
