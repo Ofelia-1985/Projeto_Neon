@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter,Arial,sans-serif;
-    
 }
 
 body
@@ -14,7 +13,6 @@ body
     align-items: center;
     min-height: 100vh;
     background: #fff;
-    
 }
 
 /* HEADER */
@@ -33,7 +31,6 @@ body
     color: white;
     padding: 5px 0;
     justify-content:center;
-  
     position:absolute;
     left: 0;
     top: 0;
@@ -86,6 +83,7 @@ body
   .naveg ul li a:hover {
     background: #e6b400;
   }
+
  /* flecha */
  .far {  
   position: absolute;
@@ -170,7 +168,7 @@ margin: 0;
     border: none;
     outline: none;
     padding: 5px 15px;
-    color: #678983;
+    color: #111;
     font-size: 18px;
     border-radius: 50px;
 }
@@ -248,6 +246,7 @@ margin: 0;
     cursor: pointer;
   }
 
+  /* FOOTER */
   a{
     color:#fff;
     margin: 15px;

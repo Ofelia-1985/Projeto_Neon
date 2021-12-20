@@ -14,13 +14,10 @@ body
     align-items: center;
     min-height: 100vh;
     background: #fff;
-    
 }
 
 /* HEADER */
 
-
-  
 .foto{
     border-radius: 40%;
   }
@@ -51,8 +48,6 @@ body
   .header a {
     text-decoration: none;
     text-transform: uppercase;
-    
-    
   }
   
   .logo-nav{
@@ -98,7 +93,7 @@ body
   color:#ffc800;
       
 }
-/* saldo conta */
+/* <p> saldo conta */
 
 .form h2
 {
@@ -126,8 +121,16 @@ body
   color: #fff;
   width: 60px;
   height: 60px;
-  top: 2px;
-  right: 10px;
+  top: 0px;
+  right: 40px;
+}
+
+/* saida */
+.fas {
+  position: absolute;
+  color: #fff;
+  top: 8px;
+  right: 12px;   
 }
 
 .text {
