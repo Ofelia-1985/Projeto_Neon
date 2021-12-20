@@ -3,7 +3,7 @@
     console.log('Começou!');
 
     console.log('INSERT INTO login');
-    const result = await db.insertLogin({ID_CLIENTE: 8, EMAIL: "VitorVieira@email.com", SENHA: "635241", NOME: "Vitor Vieira" });
+    const result = await db.insertLogin({ID_CLIENTE: '29', EMAIL: 'Julio@email.com', SENHA: '635241', NOME: 'Julio Silva' });
     console.log(result);
 
     console.log('SELECT * FROM login');
@@ -11,7 +11,7 @@
     console.log(login);
     
     console.log('UPDATE login');
-    const result2 = await db.updateLogin(3, {EMAIL: "josésantos@email.com", SENHA: "635241", NOME: "José Santos"});
+    const result2 = await db.updateLogin({EMAIL: 'josesantos@email.com', SENHA: '635241', NOME: 'José Santos', id_cliente: '4'});
     console.log(result2);
 
     console.log('DELETE FROM login');

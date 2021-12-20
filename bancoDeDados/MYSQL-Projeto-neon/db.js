@@ -27,16 +27,17 @@ async function insertLogin(login){
     return await conn.query(sql, values);
 }
 
-async function updateLogin(ID_CLIENTE, LOGIN){
+async function updateLogin(login){
     const conn = await connect();
-    const sql = 'UPDATE login SET ID_CLIENTE=?, EMAIL=?, SENHA=? NOME=? WHERE ID_CLIENTE=?';
-    const values = [ID_CLIENTE, login.EMAIL, login.SENHA, login.NOME];
+    const sql = 'UPDATE login SET EMAIL=?, SENHA=?, NOME=? WHERE id_cliente=?;';
+    const values = [login.EMAIL, login.SENHA, login.NOME, login.id_cliente];
+    console.log(login.EMAIL)
     return await conn.query(sql, values);
 }
 
 async function deleteLogin(ID_CLIENTE){
     const conn = await connect();
     const sql = 'DELETE FROM login WHERE ID_CLIENTE=?;';
-    return await conn.query(sql, [id]);
+    return await conn.query(sql, ID_CLIENTE);
 }
 module.exports = {selectLogin, insertLogin, updateLogin, deleteLogin}
