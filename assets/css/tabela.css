@@ -107,6 +107,10 @@ nav ul li{
   align-content: center;
   text-transform: uppercase; 
 }
+
+/* ICON */
+
+/* saida */
 .fas {
   position: absolute;
   color: #fff;
@@ -115,11 +119,20 @@ nav ul li{
   top: 2px;
      
 }
+
+/* buscar */
+.search{
+  width: 0px;
+  height: 60px;
+  top: 2px;
+  margin-top: 165px;
+}
+
 .btn-api{
 
   width: 30px;
   height: 30px;
-  color: #007953;
+  color: #0073CD;
   background-color: #fff;
   padding: 8px;
   border-radius: 30px;
@@ -131,23 +144,12 @@ nav ul li{
   width: 30px;
   height: 30px;
   color: #fff;
-  background-color: #007953;
-  border-color: #007953;
+  background-color: #0073cd;
   padding: 8px;
   border-radius: 30px;
   margin-top: 173px;
 }
 
-
-.search{
-  color: #fff;
-  width: 0px;
-  height: 60px;
-  top: 2px;
-  margin-top: 165px;
-
-
-}
   /* CONTAINER */
 
   .imgMulher{
@@ -199,18 +201,12 @@ nav ul li{
   
 }
 
-/* SEARCH */
-.search {
-  background-color: #00A5F0;
-}
-
 /* INPUT */
-
 .dataLancamento{ 
     border: 0px;
     padding: 3px;
     background-color: #fff;
-    color: #0073CD;
+    color: #111;
     border-radius: 20px;
     width: 80%;
     margin-top: 20px; 
